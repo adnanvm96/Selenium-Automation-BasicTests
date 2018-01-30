@@ -1,0 +1,30 @@
+package SeleniumPractice;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class howToTakeMultipleScreenshot {
+	
+	public static void main(String[] args) throws Exception {
+		//Exception is a base class
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.google.com/");
+		
+		driver.findElement(By.xpath("//*[@id='lst-ib']")).sendKeys("nisum");
+		driver.findElement(By.name("btnK")).click();
+		driver.findElement(By.xpath("//*[@href='http://www.nisum.com/']")).click();
+		
+	
+		System.out.println("Captured Screenshot");
+		
+
+	}
+
+}

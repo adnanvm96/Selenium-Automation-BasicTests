@@ -1,0 +1,61 @@
+/**
+ * 
+ */
+package Pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+/**
+ * @author adnan ahmed;
+ *
+ *This will store all methods and elements of login page of web-admin;
+ */
+public class LoginPage {
+	
+	
+	WebDriver driver;  //Local variable or reference variable
+	
+	By accountnumber=By.xpath("//input[@name = 'accountNumber']");
+	By emailid=By.xpath("//*[@name = 'email']");
+	By password=By.xpath("//*[@name = 'password']");
+	By submitLogin=By.xpath("//*[@id = 'login']");
+	By login=By.xpath("//button[text() = 'Login']");
+
+
+public LoginPage(WebDriver driver) //*This is constructor and it will accept one argument called WebDriver and it will help activities on our web-pages
+{
+	this.driver = driver;
+	
+}
+      public void typeaccountnumber(){
+	   driver.findElement(accountnumber).sendKeys("qa5test05");
+	
+}
+     public void typeemailid() {
+    	 driver.findElement(emailid).sendKeys("pp_admin@pricepong.com");
+    	 
+     }
+      
+      public void typepassword(){
+    	  driver.findElement(password).sendKeys("admin");
+    	 }
+      
+      public void clickonlogin(){
+    	  driver.findElement(login).click();
+    	  
+    	  
+      }
+      
+      public void submitLogin(){
+    	  driver.findElement(submitLogin).click();
+    	  
+    	  
+      }
+  
+
+	
+}
+
+
+

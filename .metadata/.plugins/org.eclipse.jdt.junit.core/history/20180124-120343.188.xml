@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="TestingCucumber" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="CucumberTest.TestingCucumber.TestRunner" time="2.121">
+    <testsuite name="Feature: Login Action" time="2.121">
+      <testsuite name="Scenario: Successful Login with Valid Credentials" time="2.121">
+        <testcase name="Given User is on Home Page" classname="Scenario: Successful Login with Valid Credentials" time="1.983"/>
+        <testcase name="When User Navigate to LogIn Page" classname="Scenario: Successful Login with Valid Credentials" time="0.135"/>
+        <testcase name="And User enters UserName and Password" classname="Scenario: Successful Login with Valid Credentials" time="0.001"/>
+        <testcase name="Then Message displayed Login Failed" classname="Scenario: Successful Login with Valid Credentials" time="0.002"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

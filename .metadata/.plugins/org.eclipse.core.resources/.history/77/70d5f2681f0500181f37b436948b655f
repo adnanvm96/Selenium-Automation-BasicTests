@@ -1,0 +1,12 @@
+package SeleniumPractice;
+
+public class howToTakeScreenshot {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}
