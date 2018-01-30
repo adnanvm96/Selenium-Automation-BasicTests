@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package VerifyWebAdminLoginPage;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import Pages.LoginPage;
+
+/**
+ * @author adnahmed
+ *
+ */
+public class VerifyLoginTestcases {
+	
+	@Test
+	public void verifyValidLogin(){
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://qa.pricepong.com/webadmin/#/home");
+		System.out.println("Successfully opened the website http://qa.pricepong.com/webadmin/#/home");
+		driver.manage().window().maximize();
+		
+		LoginPage login= new LoginPage (driver);
+		login.clickonlogin();
+		login.typeaccountnumber();
+		login.typeemailid();
+		login.typepassword();
+		login.submitLogin();
+		driver.findElement(By.xpath("//*[@id='productTab']")).click();
+		//driver.findElement(By.xpath(""));
+		
+	}
+	
+	
+}

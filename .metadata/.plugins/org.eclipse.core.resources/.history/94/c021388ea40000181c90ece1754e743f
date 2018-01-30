@@ -1,0 +1,31 @@
+package com.nisum;
+
+public class JavaImplements implements Seleniumtest{
+	int abc = 10;
+	float f = 0.002f;
+	public void add() {
+		System.out.println("Hello Vijay");
+		
+		
+	}
+	
+
+	public static void main(String[] args) {
+		JavaImplements driver = new JavaImplements();
+		driver.add();
+		System.out.println(driver.abc);
+		System.out.println(driver.f);
+		driver.m1();
+	
+
+	}
+
+
+	public void m1() {
+		System.out.println("hi am m1 method");
+		
+		
+
+	}
+
+}

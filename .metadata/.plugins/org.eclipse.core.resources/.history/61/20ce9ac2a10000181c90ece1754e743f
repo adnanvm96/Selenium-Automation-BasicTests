@@ -1,0 +1,45 @@
+package com.nisum;
+
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+public class Practisexapth
+{
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriver Driver = new FirefoxDriver();
+		Driver.get("http://qa.pricepong.com/webadmin/#/home");
+		System.out.println("Successfully opened the website http://qa.pricepong.com/webadmin/#/home");
+		Driver.manage().window().maximize();
+		Driver.findElement(By.xpath("//*[@class = 'btn red btn-block uppercase']")).click();
+		Thread.sleep(3000);
+		Driver.findElement(By.xpath("//input[@name = 'accountNumber']")).sendKeys("qa5test05");
+		Driver.findElement(By.xpath("//*[@name = 'email']")).sendKeys("pp_admin@pricepong.com");
+		Driver.findElement(By.xpath("//*[@name = 'password']")).sendKeys("admin");
+		Driver.findElement(By.xpath("//*[@id = 'login']")).click();
+		Thread.sleep(3000);
+		Driver.findElement(By.xpath("//*[@id='productTab']")).click();
+		Driver.findElement(By.xpath("//a[@href='#/product/manage']")).click();
+		String currentURL = Driver.getCurrentUrl();
+		System.out.println(currentURL);
+		Driver.findElement(By.xpath("//a[@href='#/product/create']")).click();
+
+		Thread.sleep(5000);
+		//Driver.close(); //Closes the browser
+		((JavascriptExecutor)Driver).executeScript("window.open();");
+		//Driver.close(); //Closes the browser
+		
+		
+
+		
+		
+	}
+
+}

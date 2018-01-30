@@ -1,0 +1,38 @@
+package SeleniumPractice;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class LetsKodeItPractice {
+
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		
+		
+		
+		driver.get("https://letskodeit.teachable.com/p/practice");
+		driver.manage().window().maximize();
+		//radio button example
+		driver.findElement(By.xpath("//*[@id='bmwradio']")).click();
+		driver.findElement(By.xpath("//*[@id='benzradio']")).click();
+		driver.findElement(By.xpath("//*[@id='hondaradio']")).click();
+		
+		//drop down example
+		WebElement dropdown = driver.findElement(By.id("carselect"));
+		Select drop = new Select(dropdown);
+		drop.selectByVisibleText("Honda");
+		drop.selectByVisibleText("Benz");
+		drop.selectByVisibleText("BMW");
+		
+		
+		
+		
+		
+
+	}
+
+}
