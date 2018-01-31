@@ -1,0 +1,38 @@
+package SeleniumPractice;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class handlingAlertsAndPopUp {
+
+	
+	
+	public static void main(String[] args){
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://selenium-webdriver.com/java/practice-pop-ups-selenium-webdriver");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//*[@name='alert']")).click();
+		Alert ale = driver.switchTo().alert();
+		ale.accept();
+		System.out.println("Successfully clicked on OK alert-box");
+		driver.findElement(By.xpath("//*[@name='alert']")).click();
+		ale.dismiss();
+		System.out.println("successfully cancelled the pop-up");
+		driver.findElement(By.xpath("//*[@name='confirmation']")).click();
+		ale.dismiss();
+		
+		driver.findElement(By.xpath("//*[@name='confirmation']")).click();
+		ale.accept();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}

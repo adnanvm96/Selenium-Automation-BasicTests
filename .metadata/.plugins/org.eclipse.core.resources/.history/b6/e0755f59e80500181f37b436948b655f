@@ -1,0 +1,11 @@
+package inheritanceExample;
+
+public class Bird extends Animal{
+	
+	
+	
+	
+	
+	
+
+}

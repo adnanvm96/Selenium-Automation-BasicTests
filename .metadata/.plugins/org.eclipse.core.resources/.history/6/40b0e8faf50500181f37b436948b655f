@@ -1,0 +1,29 @@
+package SeleniumPractice;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class handlingAlertsAndPopUp {
+
+	
+	
+	public static void main(String[] args){
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://selenium-webdriver.com/java/practice-pop-ups-selenium-webdriver");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//*[@name='alert']")).click();
+		Alert ale = driver.switchTo().alert();
+		ale.accept();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}

@@ -22,10 +22,10 @@ public class howToTakeMultipleScreenshot {
 		
 		System.out.println("Captured Screenshot");
 		
-		
 	}
-	
+		
 }
+	
 		
 
 	

@@ -1,0 +1,28 @@
+package SeleniumPractice;
+//Abstract class and Abstract Method
+//https://www.youtube.com/watch?v=RcIsb9iFKH8 reference link 
+
+public class AbstractClassAndMethod {
+
+	public static void main(String[] args) {
+		
+		Adnanphone obj = new Adnanphone();
+		obj.call();
+		
+
+	}
+	
+}
+	class Adnanphone{
+		//Here we calling an method 
+		public void call(){
+			
+			System.out.println("calling.....");
+		}
+	}
+
+	
+		
+		
+		
+	
