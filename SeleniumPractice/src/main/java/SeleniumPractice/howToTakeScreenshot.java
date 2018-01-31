@@ -28,7 +28,8 @@ public class howToTakeScreenshot {
 	//Note:- '.' Dot operator means it will focus on the current working directory so in our case it will focus in SeleniumPractice project
 		System.out.println("Captured Screenshot");
 		
-
 	}
-
+		
 }
+
+
