@@ -22,7 +22,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/adnahmed/Documents/selenium-java-2.53.0.zip"/>
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/cobertura-2.1.1.jar"/>
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/cucumber-core-1.2.5.jar"/>
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/cucumber-java-1.2.2.jar"/>
@@ -33,24 +32,8 @@
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/gherkin-2.12.2-javadoc.jar"/>
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/mockito-all-2.0.2-beta.jar"/>
-	<classpathentry kind="lib" path="/Users/adnahmed/.m2/repository/org/seleniumhq/selenium/selenium-api/2.53.0/selenium-api-2.53.0.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-api"/>
-			<attribute name="maven.version" value="2.53.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/adnahmed/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.0/selenium-firefox-driver-2.53.0.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-firefox-driver"/>
-			<attribute name="maven.version" value="2.53.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/adnahmed/Downloads/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/selenium-server-standalone-3.5.3.jar"/>
+	<classpathentry kind="lib" path="/Users/adnahmed/Documents/selenium-java-3.5.3.zip"/>
+	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/mysql-connector-java-5.1.18-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

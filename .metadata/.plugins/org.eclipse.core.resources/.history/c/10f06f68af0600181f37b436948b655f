@@ -1,0 +1,21 @@
+package SeleniumPractice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AccessingFromsInWebDriver {
+
+	public static void main(String[] args) {
+	WebDriver driver = new FirefoxDriver();
+	driver.get("http://demoqa.com/registration/");
+	driver.manage().window().maximize();
+	
+	driver.findElement(By.xpath("//*[@id='name_3_firstname']")).sendKeys("John");
+    driver.findElement(By.xpath("//*[@id='name_3_lastname']")).sendKeys("smith");
+    driver.findElement(By.xpath("//*[@value='single']")).click();
+    driver.findElement(By.xpath("//*[@value='cricket ']")).click();;
+    //driver.findElement(By.xpath("//*[@class= 'RveJvd snByac']")).click();
+	}
+
+}

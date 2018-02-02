@@ -13,7 +13,9 @@ import cucumber.api.java.en.When;
 
 public class RegistrationStepsDefinition {
 	
+	
 	WebDriver driver = new FirefoxDriver();
+	
 			
 	@Given("^User goes to http://demoqa\\.com/registration/$")
 	public void GotoRegistrationPage() throws Throwable {

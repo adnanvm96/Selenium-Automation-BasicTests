@@ -14,6 +14,8 @@ public class SamplePageXpath {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+
 WebDriver driver = new FirefoxDriver();
 		
 		driver.get("https://www.google.com/");
@@ -32,7 +34,6 @@ WebDriver driver = new FirefoxDriver();
 		HoverAndClick(driver, WhoWeAre, WhoWeAre );
 		((JavascriptExecutor)driver).executeScript("scroll(0,500)");
 		WebDriverWait wait = new WebDriverWait(driver, 40);
-
 		driver.findElement(By.xpath("//*[@href='#executives_anchor']")).click();
 		
 		

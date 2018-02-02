@@ -1,0 +1,23 @@
+package SeleniumPractice;
+
+import org.openqa.selenium.By;
+
+//Handle WebTables and Calendar
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebTables {
+
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+		//driver.get("http://seleniumpractise.blogspot.in/2016/08/how-to-handle-calendar-in-selenium.html");
+		driver.get("https://www.delta.com/");
+		driver.findElement(By.xpath("//*[@id='departureDate']")).click();
+		driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[4]/table/tbody/tr[1]/td[5]/a")).click();
+		
+
+	}
+
+}

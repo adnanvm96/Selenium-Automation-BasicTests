@@ -10,6 +10,7 @@ public class TestCucumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/TestingCucumber/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		 
         //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception

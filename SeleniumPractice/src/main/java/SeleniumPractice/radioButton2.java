@@ -12,6 +12,8 @@ public class radioButton2 {
 	
 
 	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();

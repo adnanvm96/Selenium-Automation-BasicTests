@@ -32,6 +32,6 @@
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/gherkin-2.12.2-javadoc.jar"/>
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/mockito-all-2.0.2-beta.jar"/>
-	<classpathentry kind="lib" path="/Users/adnahmed/Documents/java jar files/cucumber jar files/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="/Users/adnahmed/Documents/selenium-server-standalone-3.5.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

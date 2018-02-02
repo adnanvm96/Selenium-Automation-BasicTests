@@ -9,6 +9,8 @@ public class HowToOpenBrowser {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Create a new instance of the Firefox driver
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+
         WebDriver driver = new FirefoxDriver();
         
        // WebElement ele = null;

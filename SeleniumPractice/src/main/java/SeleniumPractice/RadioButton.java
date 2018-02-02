@@ -10,6 +10,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class RadioButton {
 
 	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+
 		WebDriver driver = new FirefoxDriver();
 		//Radio button 
 		driver.get("http://seleniumpractise.blogspot.in/2016/08/how-to-automate-radio-button-in.html");
