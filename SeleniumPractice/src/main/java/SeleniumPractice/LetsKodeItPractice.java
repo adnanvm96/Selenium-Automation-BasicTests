@@ -13,6 +13,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LetsKodeItPractice {
 
 	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+
 		WebDriver driver = new FirefoxDriver();
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 				

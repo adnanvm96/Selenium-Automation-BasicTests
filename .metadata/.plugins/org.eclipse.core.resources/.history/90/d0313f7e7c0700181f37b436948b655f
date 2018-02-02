@@ -1,0 +1,16 @@
+package SeleniumPractice;
+
+import org.junit.Test;
+
+public class iFrames {
+	
+	@Test
+	public void testFrames(){
+		
+		
+		
+		
+	}
+	
+	
+}

@@ -12,7 +12,7 @@ public class handlingAlertsAndPopUp {
 	
 	
 	public static void main(String[] args){
-		
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("https://selenium-webdriver.com/java/practice-pop-ups-selenium-webdriver");

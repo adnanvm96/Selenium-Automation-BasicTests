@@ -1,0 +1,23 @@
+package SeleniumPractice;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConnectToDatabase {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		
+		//This "com.mysql.jdbc.Driver" is already mentioned in referenced libraries under mysql connector 
+		Class.forName("com.mysql.jdbc.Driver");
+		System.out.println("Driver loaded");
+		//URL should be in this format url of the form jdbc:subprotocol:subname
+
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/SeleniumAutomation","root","123456");
+		System.out.println("Database is connected to MySQL ");
+		
+
+	}
+
+}
