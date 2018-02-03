@@ -1,0 +1,17 @@
+package SeleniumPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class DragAndDropAction {
+
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+		driver.get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
+		driver.manage().window().maximize();
+		
+
+	}
+
+}

@@ -2715,3 +2715,471 @@ org.eclipse.core.runtime.CoreException: Launch configuration javastring referenc
 2018-02-02 10:24:47,935 [Worker-1307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
 2018-02-02 10:24:47,936 [Worker-1307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-02-02 10:24:47,936 [Worker-1307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 11:01:30,979 [Worker-1343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 11:01:30,979 [Worker-1343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 11:01:30,980 [Worker-1343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 11:01:30,980 [Worker-1343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 11:26:56,654 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 11:26:56,654 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 11:26:56,654 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 11:26:56,654 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 12:06:36,258 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ChromeTest references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration ChromeTest references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2228) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:371) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,261 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaArray references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaArray references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2228) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:371) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,263 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaLoops references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaLoops references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2228) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:371) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,265 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaSwitch references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaSwitch references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2228) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:371) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,267 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaWhile references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaWhile references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2228) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:371) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,268 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Javaifelseelseif references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration Javaifelseelseif references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2228) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:371) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,270 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration javastring references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration javastring references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2228) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:371) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,272 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ChromeTest references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration ChromeTest references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,274 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaArray references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaArray references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,275 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaLoops references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaLoops references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,276 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaSwitch references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaSwitch references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,277 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JavaWhile references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration JavaWhile references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,279 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Javaifelseelseif references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration Javaifelseelseif references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:36,280 [Worker-1378] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration javastring references non-existing project JavaBa.
+org.eclipse.core.runtime.CoreException: Launch configuration javastring references non-existing project JavaBa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2134) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:385) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2302) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1078) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:509) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:192) [org.eclipse.ui.ide_3.12.3.v20170119-0935.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2018-02-02 12:06:37,550 [Worker-1379] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eHour:eHour-Mobile-Automation:0.0.1-SNAPSHOT @ /Users/adnahmed/Documents/ehour-workspace/ehour-mobile-automation/pom.xml.
+2018-02-02 12:06:38,538 [Worker-1383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-02 12:06:38,539 [Worker-1383] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-02 12:06:38,541 [Worker-1383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-02 12:06:38,542 [Worker-1383] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-02 12:06:38,699 [Worker-1383] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eHour-Automation:eHour-Automation:0.0.1-SNAPSHOT @ /Users/adnahmed/Documents/ehour-workspace/ehour-automation/ehour-automation/pom.xml.
+2018-02-02 12:06:39,140 [Worker-1383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-02 12:06:39,140 [Worker-1383] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-02 12:06:39,143 [Worker-1383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-02 12:06:39,143 [Worker-1383] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-02 12:06:59,913 [Worker-1387] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 12:06:59,913 [Worker-1387] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 12:06:59,914 [Worker-1387] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 12:06:59,914 [Worker-1387] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:24:46,774 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:24:46,774 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:24:46,775 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:24:46,775 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:30:56,222 [Worker-1403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:30:56,222 [Worker-1403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:30:56,222 [Worker-1403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:30:56,222 [Worker-1403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:31:46,518 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:31:46,518 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:31:46,518 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:31:46,518 [Worker-1397] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:49:40,929 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:49:40,930 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:49:40,930 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:49:40,930 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:50:56,505 [Worker-1412] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:50:56,505 [Worker-1412] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:50:56,506 [Worker-1412] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:50:56,506 [Worker-1412] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:53:27,113 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:53:27,113 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:53:27,114 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:53:27,114 [Worker-1410] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:54:34,173 [Worker-1408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:54:34,173 [Worker-1408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:54:34,174 [Worker-1408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:54:34,174 [Worker-1408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:55:15,129 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:55:15,129 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:55:15,130 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:55:15,130 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 14:55:33,964 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:55:33,964 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 14:55:33,964 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 14:55:33,964 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-02 15:08:02,123 [Worker-1420] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 15:08:02,123 [Worker-1420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-02 15:08:02,124 [Worker-1420] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-02 15:08:02,124 [Worker-1420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
