@@ -1,0 +1,15 @@
+package SeleniumPractice;
+
+public class EncapsulationPractice {
+	
+	/*Encapsulation: information hiding
+	 * 
+	 * One thing to note about encapsulation is the access modifiers (public,private,protected)
+	 * 
+	 *  
+	 */
+	
+	
+	
+
+}

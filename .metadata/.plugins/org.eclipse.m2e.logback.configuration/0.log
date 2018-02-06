@@ -3183,3 +3183,239 @@ org.eclipse.core.runtime.CoreException: Launch configuration javastring referenc
 2018-02-02 15:08:02,123 [Worker-1420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
 2018-02-02 15:08:02,124 [Worker-1420] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-02-02 15:08:02,124 [Worker-1420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 10:33:16,411 [Worker-1578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:33:16,412 [Worker-1578] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 10:33:16,413 [Worker-1578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:33:16,413 [Worker-1578] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 10:38:32,106 [Worker-1584] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:38:32,106 [Worker-1584] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 10:38:32,107 [Worker-1584] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:38:32,107 [Worker-1584] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 10:40:53,383 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:40:53,383 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 10:40:53,384 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:40:53,384 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 10:46:19,237 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:46:19,238 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 10:46:19,238 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:46:19,238 [Worker-1581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 10:51:31,138 [Worker-1589] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:51:31,138 [Worker-1589] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 10:51:31,139 [Worker-1589] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:51:31,139 [Worker-1589] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 10:56:40,892 [Worker-1579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:56:40,893 [Worker-1579] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 10:56:40,893 [Worker-1579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 10:56:40,893 [Worker-1579] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:09:10,294 [Worker-1596] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:09:10,294 [Worker-1596] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:09:10,295 [Worker-1596] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:09:10,295 [Worker-1596] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:22:37,011 [Worker-1597] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:22:37,011 [Worker-1597] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:22:37,016 [Worker-1597] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:22:37,016 [Worker-1597] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:39:31,720 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:39:31,720 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:39:31,720 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:39:31,720 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:44:17,140 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:44:17,140 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:44:17,140 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:44:17,140 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:45:29,085 [Worker-1600] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:45:29,085 [Worker-1600] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:45:29,085 [Worker-1600] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:45:29,085 [Worker-1600] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:45:52,623 [Worker-1607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:45:52,623 [Worker-1607] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:45:52,624 [Worker-1607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:45:52,624 [Worker-1607] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:53:23,420 [Worker-1608] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:53:23,420 [Worker-1608] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:53:23,421 [Worker-1608] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:53:23,421 [Worker-1608] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 11:55:49,630 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:55:49,630 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 11:55:49,631 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 11:55:49,631 [Worker-1594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:03:23,784 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:23,784 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:03:23,784 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:23,785 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:03:32,623 [Worker-1615] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:32,623 [Worker-1615] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:03:32,624 [Worker-1615] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:32,624 [Worker-1615] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:03:35,108 [Worker-1614] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:35,108 [Worker-1614] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:03:35,109 [Worker-1614] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:35,109 [Worker-1614] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:03:38,401 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:38,401 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:03:38,402 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:03:38,402 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:08:26,582 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:08:26,582 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:08:26,583 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:08:26,583 [Worker-1618] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:11:19,782 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:11:19,782 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:11:19,783 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:11:19,783 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:13:09,407 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:13:09,408 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:13:09,408 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:13:09,408 [Worker-1617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:13:46,768 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:13:46,768 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:13:46,769 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:13:46,769 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 12:14:15,171 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:14:15,171 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 12:14:15,172 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 12:14:15,172 [Worker-1619] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 14:08:48,869 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 14:08:48,869 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 14:08:48,870 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 14:08:48,870 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 14:33:10,813 [Worker-1637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 14:33:10,814 [Worker-1637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 14:33:10,814 [Worker-1637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 14:33:10,814 [Worker-1637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 14:33:20,113 [Worker-1632] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 14:33:20,113 [Worker-1632] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 14:33:20,113 [Worker-1632] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 14:33:20,113 [Worker-1632] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:01:23,049 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:01:23,049 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:01:23,049 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:01:23,049 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:01:26,807 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:01:26,807 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:01:26,807 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:01:26,807 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:03:50,427 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:03:50,427 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:03:50,427 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:03:50,427 [Worker-1646] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:04:10,554 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:04:10,554 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:04:10,554 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:04:10,554 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:11:54,716 [Worker-1645] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:11:54,716 [Worker-1645] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:11:54,716 [Worker-1645] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:11:54,716 [Worker-1645] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:23:35,185 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:23:35,185 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:23:35,186 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:23:35,186 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:23:40,744 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:23:40,744 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:23:40,744 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:23:40,744 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:24:29,400 [Worker-1649] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:24:29,400 [Worker-1649] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:24:29,401 [Worker-1649] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:24:29,401 [Worker-1649] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:27:11,492 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:27:11,492 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:27:11,493 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:27:11,493 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:28:09,916 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:28:09,916 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:28:09,916 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:28:09,916 [Worker-1643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:31:43,610 [Worker-1648] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:31:43,611 [Worker-1648] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:31:43,612 [Worker-1648] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:31:43,612 [Worker-1648] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:33:13,641 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:33:13,641 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:33:13,641 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:33:13,641 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:33:49,777 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:33:49,777 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:33:49,777 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:33:49,777 [Worker-1652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:41:29,699 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:41:29,699 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:41:29,700 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:41:29,700 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:42:37,884 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:42:37,884 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:42:37,885 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:42:37,885 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:46:08,322 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:46:08,323 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:46:08,323 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:46:08,323 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:46:28,515 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:46:28,516 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:46:28,517 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:46:28,517 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:48:07,174 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:48:07,174 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:48:07,175 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:48:07,175 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:54:04,399 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:54:04,400 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:54:04,400 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:54:04,400 [Worker-1653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 15:56:21,518 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:56:21,518 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 15:56:21,519 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 15:56:21,519 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:38:21,869 [Worker-1659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:38:21,869 [Worker-1659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:38:21,869 [Worker-1659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:38:21,869 [Worker-1659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:38:40,507 [Worker-1661] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:38:40,508 [Worker-1661] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:38:40,508 [Worker-1661] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:38:40,509 [Worker-1661] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:40:20,884 [Worker-1665] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:40:20,884 [Worker-1665] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:40:20,884 [Worker-1665] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:40:20,884 [Worker-1665] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:46:05,946 [Worker-1669] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:46:05,946 [Worker-1669] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:46:05,947 [Worker-1669] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:46:05,947 [Worker-1669] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:46:19,638 [Worker-1671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:46:19,638 [Worker-1671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:46:19,638 [Worker-1671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:46:19,638 [Worker-1671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:47:04,631 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:47:04,631 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:47:04,631 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:47:04,631 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:47:25,579 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:47:25,579 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:47:25,579 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:47:25,579 [Worker-1651] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:51:28,081 [Worker-1673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:51:28,081 [Worker-1673] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:51:28,082 [Worker-1673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:51:28,082 [Worker-1673] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:54:57,578 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:54:57,578 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:54:57,579 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:54:57,579 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:57:23,004 [Worker-1670] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:57:23,004 [Worker-1670] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:57:23,005 [Worker-1670] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:57:23,005 [Worker-1670] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:58:17,915 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:58:17,915 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:58:17,915 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:58:17,915 [Worker-1672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 16:58:51,008 [Worker-1675] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:58:51,008 [Worker-1675] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 16:58:51,008 [Worker-1675] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:58:51,008 [Worker-1675] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources
+2018-02-05 17:04:59,052 [Worker-1674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 17:04:59,052 [Worker-1674] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/main/resources
+2018-02-05 17:04:59,053 [Worker-1674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 17:04:59,053 [Worker-1674] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/src/test/resources

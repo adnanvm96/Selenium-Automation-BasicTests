@@ -1,0 +1,22 @@
+package JavaScriptPractice;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class JavaScriptExecutor {
+
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+		driver.get("https://www.google.com/");
+		driver.manage().window().maximize();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("alert('welcome to google');");
+		Alert ale = driver.switchTo().alert();
+	    ale.accept();
+	    driver.close();
+	}
+
+}
