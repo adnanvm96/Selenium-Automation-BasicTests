@@ -1,0 +1,20 @@
+package EncapsulationPracticeCode;
+
+public class EncapsulationPractice2 {
+	
+	
+	public static void main(String[] args){
+		
+		Employee james = new Employee();
+	System.out.println(james);
+	james.setName("James Smith");
+	james.setAge(40);
+	james.setCity("Fremont");
+	
+	
+	
+	
+
+}
+
+}

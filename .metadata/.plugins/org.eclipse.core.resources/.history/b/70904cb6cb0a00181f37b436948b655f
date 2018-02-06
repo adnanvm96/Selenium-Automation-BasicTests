@@ -1,0 +1,21 @@
+package EncapsulationPractice;
+
+import SeleniumPractice.EncapsulationPractice;
+
+public class EncapsulationPractice2 {
+	
+	
+	public static void main(String[] args){
+		EncapsulationPractice james = new EncapsulationPractice();
+	
+	james.setName("James Smith");
+	james.setAge(40);
+	james.setCity("Fremont");
+	
+	
+	
+	
+
+}
+
+}
