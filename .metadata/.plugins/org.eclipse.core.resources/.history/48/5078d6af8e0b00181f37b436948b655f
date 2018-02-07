@@ -1,0 +1,15 @@
+package SeleniumPractice;
+
+public class StringPractice {
+
+	public static void main(String[] args) {
+		String str = "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware";
+		System.out.println(str.length()); //give the length of the string
+		System.out.println(str.charAt(3));  //gives you the position of the character and index in java starts from zero(0,1,2,3.....)
+		System.out.println(str.concat("   ===> Google chorme is browser of google")); //adds to the line 
+		System.out.println(str.contains("is"));
+		
+
+	}
+
+}
