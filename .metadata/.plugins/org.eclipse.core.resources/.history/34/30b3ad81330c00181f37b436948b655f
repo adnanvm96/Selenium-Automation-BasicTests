@@ -1,0 +1,32 @@
+package SeleniumPractice;
+
+public class MethodPracticalExample2 {
+
+	public static void main(String[] args) {
+		findgrades("JohnSmith", 70.65);
+		
+	}
+	
+	
+	public static void findgrades(String studentName, double Score){
+		String grade;
+		if (Score >=90 && Score <=100){
+			grade = "A";
+		}
+		else if (Score >=80 && Score <=90){
+			grade = "B";
+		}
+		else if (Score >=60 && Score <=80){
+			grade = "C";
+		}	
+		else {
+			grade = "D";
+	} 
+		
+		
+	}
+		
+
+	
+
+}

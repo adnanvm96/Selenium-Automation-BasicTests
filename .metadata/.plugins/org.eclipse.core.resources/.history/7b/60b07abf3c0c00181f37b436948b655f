@@ -1,0 +1,18 @@
+package classesPractice;
+
+public class Car {
+	//make
+	private String make;
+			//model
+	private String model;
+			//year
+	private String year;
+	
+	
+	public void increaseSpeed(){
+		System.out.println(" Incraesing the speed");
+	}
+	
+	
+
+}
