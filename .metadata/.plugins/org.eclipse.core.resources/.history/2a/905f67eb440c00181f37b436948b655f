@@ -1,0 +1,24 @@
+package constructorPractice;
+
+public class Vehicle {
+	private String make;
+	int speed;
+	int gear;
+	
+	public Vehicle(){
+		this.speed = 0;
+		this.gear = 0;
+	}
+		
+	public void setmake(String make){
+		this.make = make;
+	}	
+	public String getmake(){
+	 return make;
+		
+	}
+		
+	
+	
+
+}

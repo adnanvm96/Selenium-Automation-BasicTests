@@ -1,0 +1,14 @@
+package constructorPractice;
+
+public class ConstructorDemo {
+	public static void main(String[] args) {
+		Vehicle v1 = new Vehicle();
+		v1.setmake();
+		
+		
+		
+		
+		
+	}
+
+}
