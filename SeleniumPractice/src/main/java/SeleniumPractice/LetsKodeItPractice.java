@@ -26,7 +26,7 @@ public class LetsKodeItPractice {
 		driver.findElement(By.xpath("//*[@id='hondaradio']")).click();
 		System.out.println("Successfully opened the LetsKodeIt page and clicked on all the three radio buttons");
 		
-		//drop down example
+		//drop down example , we use SELECT class for drop-down
 		WebElement dropdown = driver.findElement(By.id("carselect"));
 		Select drop = new Select(dropdown);
 		drop.selectByVisibleText("BMW");

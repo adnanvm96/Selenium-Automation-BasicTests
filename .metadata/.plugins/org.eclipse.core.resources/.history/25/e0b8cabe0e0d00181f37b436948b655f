@@ -1,0 +1,38 @@
+package jUnitFrameworkPractice;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BasicActionsUsingJunit {
+	WebDriver driver = new ChromeDriver();
+	
+	
+	
+	
+	@Before
+	public void setUp() throws Exception {
+		System.setProperty("webdriver.chrome.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/chromedriver");
+		driver.get("https://letskodeit.teachable.com/");
+		driver.manage().window().maximize();
+		
+		
+		
+	}
+	@Test
+	public void test() {
+		driver.get("https://letskodeit.teachable.com/");
+		driver.findElement(By.xpath("//*[@class='navbar-link fedora-navbar-link']")).click();
+		
+	}
+	
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	
+
+}

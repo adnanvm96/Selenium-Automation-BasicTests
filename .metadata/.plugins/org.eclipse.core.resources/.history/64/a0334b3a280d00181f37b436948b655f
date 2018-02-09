@@ -1,0 +1,41 @@
+package jUnitFrameworkPractice;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SelectingMultipleOptions {
+	WebDriver driver = new FirefoxDriver();
+
+	@Before
+	public void setUp() throws Exception {
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+		driver.get("https://letskodeit.teachable.com/");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+	}
+		
+		
+		
+		
+	@Test
+	public void test() {
+		
+		
+		
+		
+		
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	
+
+}

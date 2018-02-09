@@ -1,8 +1,43 @@
 package dataDrivenTesting;
 
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 public class ExcelReadPractice {
+	
+	//URL to get binary- http://poi.apache.org/download.html
+	//Binary name poi-bin-3.17-20170915.zip  in my case but it be updated version in ur case
+	//Extract the binary
+	//Add all the jars from the location u extracted to the build path 
+	//Also add all the jars from lib except, donot add the jar file of log4j
+	//also add all the jar files from ooxml-lib
+	//only works for excel 2007+
 
 	public static void main(String[] args) {
+		//commnd+shift+o     is the shortcut to import all the reference libraries required in the code.
+		XSSFWorkbook ExcelWBook;   //XSSFWorkbook is the datatype which is imported by "poi" to access excel file and ExcelWBook is the variable that we defined
+		XSSFSheet ExcelWSheet;
+		XSSFCell Cell;
+		//Location of the excel file 
+		String path = "//Users//adnahmed//Downloads//2-ExcelRead.xlsx";  //We use double slash in java for defining a path
+		String sheetName="sheet1";
+		
+		try {
+			FileInputStream ExcelFile = new FileInputStream(path);
+			ExcelWBook = new XSSFWorkbook(ExcelFile);
+			ExcelWSheet = ExcelWBook.getSheet(sheetName);
+			
+			Cell = ExcelWSheet.getRow(2).getCell(2);
+			String cellData = Cell.getStringCellValue();
+			System.out.println("Cell Data: " + cellData);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 		
 
 	}

@@ -1,0 +1,44 @@
+package jUnitFrameworkPractice;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class NavigatingToWebPages {
+	WebDriver driver = new FirefoxDriver();
+	
+	
+	
+	@Test
+	public void test() {
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+		driver.get("https://letskodeit.teachable.com/");
+		System.out.println("Successfully opened the page");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		String title = driver.getTitle();
+		System.out.println(title);
+		String currentUrl = driver.getCurrentUrl();
+		System.out.println("Current url is : ===>" + currentUrl);
+		
+		String urlToClickOnLogin = " https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1";
+		driver.navigate().to(urlToClickOnLogin);
+		System.out.println("Navigated to Login url====>" + urlToClickOnLogin);
+		
+		
+		
+		
+		
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		driver.close();
+	}
+
+	
+}
