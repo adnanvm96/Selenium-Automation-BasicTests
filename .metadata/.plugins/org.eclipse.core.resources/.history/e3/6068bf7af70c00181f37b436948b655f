@@ -1,0 +1,24 @@
+package dataDrivenTesting;
+
+public class ExcelReadPractice {
+	
+	//URL to get binary- http://poi.apache.org/download.html
+	//Binary name poi-bin-3.17-20170915.zip  in my case but it be updated version in ur case
+	//Extract the binary
+	//Add all the jars from the location u extracted to the build path 
+	//Also add all the jars from lib except, donot add the jar file of log4j
+	//also add all the jar files from ooxml-lib
+	//only works for excel 2007+
+
+	public static void main(String[] args) {
+		
+		//Location of the excel file 
+		String path = "/Users/adnahmed/Downloads/2-ExcelRead.xlsx";
+		String sheetName="sheet1";
+		
+		
+		
+
+	}
+
+}

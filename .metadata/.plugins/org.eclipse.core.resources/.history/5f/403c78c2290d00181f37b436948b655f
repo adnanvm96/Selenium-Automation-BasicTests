@@ -1,0 +1,54 @@
+package jUnitFrameworkPractice;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class SelectingMultipleOptions {
+	WebDriver driver = new FirefoxDriver();
+
+	@Before
+	public void setUp() throws Exception {
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+		driver.get("https://letskodeit.teachable.com/p/practice");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+	}
+	@Test
+	public void test() {
+		WebElement ele = driver.findElement(By.id("multiple-select-example"));
+		Select lists = new Select(ele);
+		lists.deselectByValue("orange");
+		lists.selectByVisibleText("Apple");
+		lists.selectByVisibleText("Orange");
+		lists.selectByVisibleText("Peach");
+		List<WebElement> selectedOptions = lists.getAllSelectedOptions();
+		System.out.println("The selected options are ====>" + selectedOptions);
+		
+
+		
+		
+		
+		
+		
+	}
+		
+		
+		
+		
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	
+
+}

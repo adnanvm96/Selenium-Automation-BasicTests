@@ -1,0 +1,19 @@
+package SeleniumPractice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FindElementByClassName {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/chromedriver");
+		driver.get("https://demostore.x-cart.com/toys/");
+		driver.findElement(By.className(""))
+		
+		
+		
+	}
+
+}
