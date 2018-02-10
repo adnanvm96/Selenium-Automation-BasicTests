@@ -1,0 +1,51 @@
+package jUnitFrameworkPractice;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class JavaScriptExecutor1 {
+	WebDriver driver = new FirefoxDriver();
+	private JavascriptExecutor js;
+
+	@Before
+	public void setUp() throws Exception {
+		System.setProperty("webdriver.gecko.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/geckodriver");
+		//driver.get("https://letskodeit.teachable.com/p/practice");
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().window().maximize();
+		js = (JavascriptExecutor)driver;
+		
+	}
+	
+	
+	@Test
+	public void test() {
+		js.executeScript("window.location = 'https://letskodeit.teachable.com/p/practice',");
+		WebElement textbox = (WebElement) js.executeScript("return document.getElementById('name');");
+		textbox.sendKeys("TEST");
+		//WebElement textbox = driver.findElement(By.id("name"));
+		//textbox.sendKeys("TEST");
+		
+		
+	}
+		
+		
+		
+		
+		
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	
+
+}
