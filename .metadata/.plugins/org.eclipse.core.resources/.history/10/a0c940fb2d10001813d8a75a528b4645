@@ -1,0 +1,5 @@
+package referenceClassForTestNG;
+
+public class ClassUsedToReference {
+
+}

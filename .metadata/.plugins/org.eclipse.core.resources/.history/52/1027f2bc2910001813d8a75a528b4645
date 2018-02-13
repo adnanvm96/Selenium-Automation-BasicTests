@@ -1,0 +1,9 @@
+package testNGPractice;
+
+import org.testng.annotations.Test;
+
+public class AssertsInTestNG {
+  @Test
+  public void f() {
+  }
+}

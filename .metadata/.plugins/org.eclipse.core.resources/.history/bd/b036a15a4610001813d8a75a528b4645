@@ -1,0 +1,18 @@
+<suite name="Regression Testing">
+	<test name="TestNGSuite TRsing">
+		<classes>
+
+			<class name="testNGPractice.TestNGSuitePractice1"></class>
+			<class name="testNGPractice.TestNGSuitePractice2"></class>
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
