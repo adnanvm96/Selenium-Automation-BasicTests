@@ -1,0 +1,53 @@
+package testNGPractice;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+
+public class ParallelTestChrome {
+	WebDriver driver = new ChromeDriver();
+	
+	
+	@BeforeTest
+	  public void initializingchromedriver() {
+		System.setProperty("webdriver.chrome.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/chromedriver");
+		driver.get("https://letskodeit.teachable.com/");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		System.out.println("successfully opened the page in chrome browser");
+		driver.findElement(By.xpath("//*[@class='navbar-link fedora-navbar-link']")).click();
+		
+		
+	  }
+	
+	
+  @Test
+  @Parameters
+  public void chrometest(String browser , String chrome) {
+	  System.out.println("Opened the browser" + browser + chrome);
+	  driver.findElement(By.id("user_email")).sendKeys("johnsmith954277@gmail.com");
+		System.out.println("clicked on email and entered the email provided");
+		driver.findElement(By.id("user_password")).sendKeys("System1234");
+		System.out.println("clicked on password and entered the email provided");
+
+		driver.findElement(By.name("commit")).click();
+		System.out.println("clicked on login button");
+	  
+	  
+	  
+	  
+  }
+  
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}
