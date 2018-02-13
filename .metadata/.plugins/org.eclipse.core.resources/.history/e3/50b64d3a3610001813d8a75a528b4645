@@ -1,0 +1,22 @@
+package testNGPractice;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import referenceClassForTestNG.ClassUsedToReference;
+
+public class SoftAssertPractice {
+
+	@Test
+	public void testSum() {
+		SoftAssert sa = new SoftAssert();
+		System.out.println("Running addition of two number ===> testsum");
+		ClassUsedToReference addition = new ClassUsedToReference();
+		int result = addition.sumNumbers(1, 2);
+		sa.assertEquals(result, 1);
+		System.out.println("Line after assert 1");
+		sa.assertEquals(result, 3);
+		System.out.println("Line after assert 2");
+
+	}
+}

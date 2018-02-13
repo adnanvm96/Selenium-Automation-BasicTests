@@ -1,0 +1,9 @@
+package testNGPractice;
+
+import org.testng.annotations.Test;
+
+public class DependentTestMethods {
+  @Test
+  public void f() {
+  }
+}

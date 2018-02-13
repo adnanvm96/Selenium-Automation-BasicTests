@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ElementsDisplayedExample" project="SeleniumPractice" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="jUnitFrameworkPractice.ElementsDisplayedExample" time="65.811">
-    <testcase name="test" classname="jUnitFrameworkPractice.ElementsDisplayedExample" time="65.811"/>
-  </testsuite>
-</testrun>
