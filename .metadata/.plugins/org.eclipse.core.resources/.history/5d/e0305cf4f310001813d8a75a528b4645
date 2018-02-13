@@ -1,0 +1,27 @@
+
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel Test Execution">
+	<test name="Testing in Firefox">
+		<classes>
+			<class name="testNGPractice.ParallelTestFirefox"></class>
+
+		</classes>
+	</test>
+	<test name="Testing in Chrome">
+
+		<classes>
+			<class name="testNGPractice.ParallelTestChrome"></class>
+
+		</classes>
+
+
+
+
+
+
+	</test>
+
+</suite>
