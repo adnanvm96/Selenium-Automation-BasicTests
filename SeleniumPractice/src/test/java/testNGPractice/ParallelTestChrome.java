@@ -11,45 +11,38 @@ import org.testng.annotations.AfterTest;
 
 public class ParallelTestChrome {
 	WebDriver driver = new ChromeDriver();
-	
-	
+
 	@BeforeTest
-	  public void initializingchromedriver() {
-		System.setProperty("webdriver.chrome.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/chromedriver");
+	public void initializingchromedriver() {
+		System.setProperty("webdriver.chrome.driver","/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/chromedriver");
 		driver.get("https://letskodeit.teachable.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		System.out.println("successfully opened the page in chrome browser");
 		driver.findElement(By.xpath("//*[@class='navbar-link fedora-navbar-link']")).click();
-		
-		
-	  }
-	
-	
-  @Test
-  
-  public void chrometest() {
-		System.setProperty("webdriver.chrome.driver", "/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/chromedriver");
 
-	  driver.findElement(By.id("user_email")).sendKeys("johnsmith954277@gmail.com");
+	}
+
+	@Test
+
+	public void chrometest() {
+		System.setProperty("webdriver.chrome.driver","/Users/adnahmed/Documents/EclipseWorkspace/SeleniumPractice/chromedriver");
+		driver.findElement(By.id("user_email")).sendKeys("johnsmith954277@gmail.com");
 		System.out.println("clicked on email and entered the email provided in chrome browser");
 		driver.findElement(By.id("user_password")).sendKeys("System1234");
 		System.out.println("clicked on password and entered the email provided in chrome browser");
-
 		driver.findElement(By.name("commit")).click();
 		System.out.println("clicked on login button in chrome browser");
-	  
-	  
-	  
-	  
-  }
-  
+		
+	}
+		
+		
 
-  @AfterTest
-  public void afterTest() {
-	  driver.close();
-	  System.out.println("successfully closed the chrome browser");
+	@AfterTest
+	public void afterTest() {
+		driver.close();
+		System.out.println("successfully closed the chrome browser");
 
-  }
+	}
 
 }

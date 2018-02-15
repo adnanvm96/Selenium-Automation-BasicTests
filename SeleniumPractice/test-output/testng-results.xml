@@ -1,79 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Testing" duration-ms="36" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
+  <suite name="Default suite" duration-ms="31" started-at="2018-02-13T22:00:25Z" finished-at="2018-02-13T22:00:25Z">
     <groups>
     </groups>
-    <test name="TestNGSuite TRsing" duration-ms="36" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-      <class name="testNGPractice.TestNGSuitePractice2">
-        <test-method status="PASS" signature="pineapple()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="pineapple" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
+    <test name="Default test" duration-ms="31" started-at="2018-02-13T22:00:25Z" finished-at="2018-02-13T22:00:25Z">
+      <class name="testNGPractice.DataProvidersInTestNG">
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testNGPractice.DataProvidersInTestNG@52feb982]" name="testMethod1" duration-ms="6" started-at="2018-02-13T22:00:25Z" data-provider="inputs" finished-at="2018-02-13T22:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bmw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[x5]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pineapple -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testNGPractice.DataProvidersInTestNG@52feb982]" name="testMethod1" duration-ms="1" started-at="2018-02-13T22:00:25Z" data-provider="inputs" finished-at="2018-02-13T22:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[audi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A6]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="method1()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="method1" duration-ms="1" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testNGPractice.DataProvidersInTestNG@52feb982]" name="testMethod1" duration-ms="2" started-at="2018-02-13T22:00:25Z" data-provider="inputs" finished-at="2018-02-13T22:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercedes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c300]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="method2" duration-ms="1" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="sweetorange()[pri:0, instance:testNGPractice.TestNGSuitePractice2@3cb1ffe6]" name="sweetorange" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sweetorange -->
-      </class> <!-- testNGPractice.TestNGSuitePractice2 -->
-      <class name="testNGPractice.TestNGSuitePractice1">
-        <test-method status="PASS" signature="apple()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="apple" is-config="true" duration-ms="7" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apple -->
-        <test-method status="PASS" signature="method1()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="method1" duration-ms="5" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="method2" duration-ms="1" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="orange()[pri:0, instance:testNGPractice.TestNGSuitePractice1@2a742aa2]" name="orange" is-config="true" duration-ms="0" started-at="2018-02-13T19:40:09Z" finished-at="2018-02-13T19:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orange -->
-      </class> <!-- testNGPractice.TestNGSuitePractice1 -->
-    </test> <!-- TestNGSuite TRsing -->
-  </suite> <!-- Regression Testing -->
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- testNGPractice.DataProvidersInTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
